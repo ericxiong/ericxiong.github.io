@@ -16,7 +16,7 @@
     <div class="hgroup">
       <h1><a href="/">{{ site.title }}</a></h1>
       <span class="hidden">{{ site.author.name }}</span>
-      <a class="feedrss" href="http://blog.littlewhite.me/atom.xml">ATOM Rss</a>
+      <a class="feedrss" href="http://www.littlewhite.me/atom.xml">ATOM Rss</a>
     </div>
     <div class="menu">
       <ul>
@@ -32,6 +32,12 @@
     {{ content }}
     <aside>
       <ul id="side" class="clear">
+        <li id="links-2" class="widget widget_links">
+          <h3 class="widgettitle">Aboud Me</h3>
+          <ul>
+            <li><a href="http://github.com/{{ site.author.github }}/" target="_blank" rel="me">github.com/{{ site.author.github }}</a></li>
+          </ul>
+        </li>
         <li id="recent-posts-2" class="widget widget_recent_entries">
           <h3 class="widgettitle">近期文章</h3>
           <ul>
