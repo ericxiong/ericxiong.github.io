@@ -1,10 +1,10 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:year/:month/:title 
+permalink: /:year/:month/:title.html 
 
 encoding: utf-8
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "new-page.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "new-page.md", "help.md"]
 auto: true
 highlighter: pygments
 markdown: kramdown
