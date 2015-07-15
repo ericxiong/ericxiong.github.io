@@ -15,3 +15,6 @@ defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 
 恢复：
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+引用：
+https://gist.github.com/kconragan/2510186
