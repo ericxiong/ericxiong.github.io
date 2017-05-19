@@ -6,6 +6,5 @@ category:
 tags: 
 
 ---
-{% include JB/setup %}
 
 It works!!

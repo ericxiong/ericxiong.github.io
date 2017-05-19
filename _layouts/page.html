@@ -1,5 +1,19 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/ilost/page.html %}
+
+<article>
+  <section class="page type-page status-publish hentry">
+    <div class="title">
+      <h2>{{ page.title }}</h2>
+    </div>
+    <div class="entry">
+      {{ content }}
+    </div>
+    <div class="post-meta">
+    </div>
+  </section>
+  <div class="comment">
+    {% include comments/comments %}
+  </div>
+</article>

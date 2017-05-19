@@ -1,0 +1,8 @@
+{% if site.analytics %}
+  {% if site.analytics.google.enable %}
+    {% include analytics/google %}
+  {% endif %}
+  {% if site.analytics.baidu.enable %}
+    {% include analytics/baidu %}
+  {% endif %}
+{% endif %}

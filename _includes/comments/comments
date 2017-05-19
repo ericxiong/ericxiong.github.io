@@ -1,0 +1,8 @@
+{% if site.comments and page.comments != false %}
+  {% if site.comments.disqus.enable %}
+    {% include comments/disqus %}
+  {% endif %}
+  {% if site.comments.duoshuo.enable %}
+    {% include comments/duoshuo %}
+  {% endif %}
+{% endif %}

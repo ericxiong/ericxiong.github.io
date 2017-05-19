@@ -3,10 +3,9 @@ layout: post
 title: "Sublime Text使用"
 description: ""
 category: 
-tags: []
+tags: 
 
 ---
-{% include JB/setup %}
 
 MacOS Sublime Text在Vim模式下无法连续按键
 
