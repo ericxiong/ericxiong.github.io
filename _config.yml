@@ -75,7 +75,8 @@ kramdown:
 # --------------------------------------------
 
 # Site Config
-title : Little White
+url: https://www.littlewhite.me
+title: Little White
 description:
 feed_path: atom.xml
 archive_path: archive.html
