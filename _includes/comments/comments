@@ -2,7 +2,7 @@
   {% if site.comments.disqus.enable %}
     {% include comments/disqus %}
   {% endif %}
-  {% if site.comments.duoshuo.enable %}
-    {% include comments/duoshuo %}
+  {% if site.comments.livere.enable %}
+    {% include comments/livere %}
   {% endif %}
 {% endif %}

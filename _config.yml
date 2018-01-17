@@ -93,9 +93,9 @@ author :
 
 # Comment Config
 comments:
-  disqus:
+  livere:
     enable: true
-    id: littlewhite
+    id: MTAyMC8zMzMwNi85ODYz
 
 ## Analytics Config
 analytics:
