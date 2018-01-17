@@ -93,6 +93,9 @@ author :
 
 # Comment Config
 comments:
+  disqus:
+    enable: false
+    id: littlewhite
   livere:
     enable: true
     id: MTAyMC8zMzMwNi85ODYz
