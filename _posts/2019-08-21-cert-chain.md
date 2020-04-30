@@ -45,3 +45,4 @@ Google搜索大部分文章给出的原因是证书不被信任，需要把相�
 If set to true, Sun's PKIX implementation of CertPathBuilder uses the information in a certificate's AIA extension (in addition to CertStores that are specified) to find the issuing CA certificate, provided it is a URI of type ldap, http, or ftp.
 
 通常该选项不会开启，所以建议网站开启https时部署完整的证书链对应的证书，同时保证证书的顺序为证书链中各证书的顺序。
+
